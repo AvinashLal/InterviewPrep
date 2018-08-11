@@ -1,3 +1,11 @@
+class node(object):
+	def __init__(self, value, next):
+		self.value = 0 
+		self.next = next
+
+class linkedlist(node):
+	def __init__(self)
+
 class tictactoe(object):
 	def __init__ (self):
 		self.game_over = False
@@ -24,8 +32,14 @@ class tictactoe(object):
 
 	def two_to_one_d_position(self, tuple):
 		r,c = tuple
-		return (3 * r) + c + 1
+		return (3 * r) + c 
 
+	def check_winner(self, player_spots):
+		counter = 0
+		while counter > 3:
+			if spot == 0:
+			elif spot == 1:
+			elif spot == 1:
 	def __str__ (self):
 		output = ''
 		for row in range(self.ROWS):
