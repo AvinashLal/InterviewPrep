@@ -1,3 +1,3 @@
-counter = 0
-x = [[counter for r in xrange(2)] for x in xrange(2) counter += 1]
-print x
+for i in range(self.size):
+	n + str(i) = 1
+	print n + str(i)
