@@ -6,7 +6,7 @@ class node(object):
 	def __str__(self):
 		return str(self.value)
 
-class linkedlist(node):
+class linkedlist(object):
 	def __init__(self, node):
 		self.head = node
 		self.tail = node
