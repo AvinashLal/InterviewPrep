@@ -11,7 +11,6 @@ def equationFinder(line):
 	x1, y1 = point1 
 	x2, y2 = point2 
 	slope = (y2 - y1)/(x2 - x1)
-	print slope
 	yIntercept = y1 - slope*x1
 	return (slope, yIntercept)
 
